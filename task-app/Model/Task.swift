@@ -15,13 +15,17 @@ class Task: Identifiable {
     var creationDate: Date
     var isCompleted: Bool
     var tint: String
+    var voiceNotePath: String?
+    var voiceNoteText: String?
     
-    init(id: UUID = .init(), taskTitle: String, creationDate: Date = .init(), isCompleted: Bool = false, tint: String) {
+    init(id: UUID = .init(), taskTitle: String, creationDate: Date = .init(), isCompleted: Bool = false, tint: String, voiceNotePath: String? = nil, voiceNoteText: String? = nil) {
         self.id = id
         self.taskTitle = taskTitle
         self.creationDate = creationDate
         self.isCompleted = isCompleted
         self.tint = tint
+        self.voiceNotePath = voiceNotePath
+        self.voiceNoteText = voiceNoteText
     }
     
     var tintColor: Color {
