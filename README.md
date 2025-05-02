@@ -1,7 +1,4 @@
 # 📱 Task Management App with Dynamic Indicators
-**Student ID:** IT21378270  
-**Name:** Wimaladharma T. H. Y. B.  
-##
 
 ### 01. Brief Description of Project 
 
